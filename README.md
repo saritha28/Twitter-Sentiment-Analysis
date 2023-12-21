@@ -46,6 +46,4 @@ Explore the generated visualizations in the `images/` directory and refer to the
 - The dataset used in this project is not provided in this repository due to size constraints. Please ensure you have access to a suitable dataset for analysis.
 - Respect Twitter's terms of service and privacy guidelines when working with Twitter data.
   
-## Power BI Link
-- [Sentiment_Analysis] https://app.powerbi.com/links/6ofBP6MeUS?ctid=fc42da63-a990-45bc-8143-320165150d3c&pbi_source=linkShare&bookmarkGuid=1681bf86-21b7-4141-92a3-e8dfbe6ab4ab
   
