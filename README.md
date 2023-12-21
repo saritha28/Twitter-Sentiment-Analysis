@@ -1,49 +1,50 @@
-# Twitter Sentiment Analysis - 1.6 Million Tweets
+# Twitter Sentiment Analysis
 
 ## Overview
-This project involves sentiment analysis conducted on a dataset comprising 1.6 million tweets from Twitter. The primary goal is to analyze sentiments expressed within these tweets using natural language processing (NLP) techniques and derive meaningful insights.
+This project conducts sentiment analysis on a dataset containing 1.6 million tweets sourced from Kaggle. The primary objective is to classify tweet sentiments using Natural Language Processing (NLP) techniques and machine learning models.
 
-## Dataset
-The dataset used in this project contains 1.6 million tweets collected from Kaggle. It includes various features such as tweet text, sentiment labels, polarity scores, and relevant metadata.
+## Dataset Details
+- **Source**: Kaggle dataset comprising 1.6 million tweets.
+- **Columns**: Target, IDs, Date, Flag, User, Text.
 
-### Data Source
-The specifics of data collection cannot be disclosed here due to Twitter's terms of service. However, the dataset adheres to Twitter's guidelines and does not contain sensitive or personal information.
+## Tools and Techniques Utilized
+- **Text Processing**: Leveraged NLTK for text processing, encompassing stemming, stopwords removal, and text standardization.
+- **Sentiment Analysis**: Computed polarity and subjectivity metrics via NLP methods.
+- **Visualization**: Implemented WordCloud, Matplotlib, and Seaborn for comprehensive data visualization.
+- **Vectorization**: Employed TF-IDF Vectorization for effective handling of textual data.
+- **Model Building**: Utilized Logistic Regression, Naive Bayes Classifier, Random Forest, and Support Vector Classifier (SVC).
+- **Encoding**: Converted sentiments to numeric variables through Label Encoder.
 
-## Tools and Technologies
-- **Python**: Used for data preprocessing, sentiment analysis, and visualization.
-- **NLTK (Natural Language Toolkit)**: Utilized for text processing and sentiment analysis.
-- **Pandas, NumPy**: Employed for data manipulation and analysis.
-- **Matplotlib, Seaborn**: Used for visualizations.
-- **Jupyter Notebooks**: Utilized for code implementation and analysis.
-- **Power BI**: Visualizations created using Power BI (path: `https://app.powerbi.com/links/6ofBP6MeUS?ctid=fc42da63-a990-45bc-8143-320165150d3c&pbi_source=linkShare`).
+## Methodology
+1. **Data Cleaning**: Eliminated noise, addressed missing values, and standardized text data.
+2. **Text Processing**: Employed stemming and stopwords removal to prepare text data for analysis.
+3. **Sentiment Analysis**: Calculated polarity and subjectivity, providing insights into sentiment distributions.
+4. **Visualization**: Generated WordClouds, visualized sentiment distributions using Matplotlib and Seaborn.
+5. **Model Building**: Developed machine learning models including Logistic Regression, Naive Bayes, Random Forest, and SVC.
+6. **Evaluation**: Assessed model performance, achieving:
+   - Logistic Regression: 83% accuracy
+   - Naive Bayes Classifier: 81% accuracy
+   - Random Forest: 93% accuracy
+   - Support Vector Classifier (SVC): 90% accuracy
 
-## Project Structure
-- **`data/`**: Contains the dataset used for analysis (not included in this repository due to size).
-- **`notebooks/`**: Jupyter notebooks used for data preprocessing, sentiment analysis, and visualization.
-- **`images/`**: Holds visualizations and graphs generated from the analysis.
-- **`README.md`**: Overview and instructions for the project.
+## Usage
+- **Data Exploration**: Explore the dataset for insights into tweet sentiments and their distributions.
+- **Text Processing**: Apply NLTK techniques for efficient text cleaning and preparation.
+- **Visualizations**: Utilize visualizations to comprehend sentiment distributions effectively.
+- **Model Building**: Employ various classifiers for sentiment classification and evaluation of performance.
 
-## Instructions
+## Included Files
+- Jupyter Notebook: Contains the code for data processing, analysis, and model development.
+- Dataset: The original dataset utilized for sentiment analysis.
 
-To replicate or explore this project:
+## Future Enhancements
+- Experiment with advanced feature engineering techniques.
+- Explore deep learning models for sentiment analysis improvement.
 
-### Clone the Repository:
-Clone this repository to your local machine using `git clone`.
-
-### Environment Setup:
-Set up a Python environment and install necessary dependencies using `pip install -r requirements.txt`.
-
-### Data:
-Acquire the dataset and place it in the `data/` directory. Ensure the data file matches the expected structure used in the notebooks.
-
-### Execute Notebooks:
-Open and execute the Jupyter notebooks in the `notebooks/` directory in sequential order. This includes preprocessing steps, sentiment analysis, and visualization.
-
-### Explore Results:
-Explore the generated visualizations in the `images/` directory and refer to the analysis in the notebooks to understand the sentiment trends and insights derived from the tweets.
-
-## Note
-- The dataset used in this project is not provided in this repository due to size constraints. Please ensure you have access to a suitable dataset for analysis.
-- Respect Twitter's terms of service and privacy guidelines when working with Twitter data.
+## Acknowledgments
+- Kaggle for providing the dataset.
+- Acknowledgment to NLTK, Matplotlib, Seaborn, and scikit-learn libraries used in this project.
   
-  
+## Power BI Link
+https://app.powerbi.com/links/6ofBP6MeUS?ctid=fc42da63-a990-45bc-8143-320165150d3c&pbi_source=linkShare&bookmarkGuid=1681bf86-21b7-4141-92a3-e8dfbe6ab4ab
+
