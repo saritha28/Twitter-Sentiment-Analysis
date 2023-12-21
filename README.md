@@ -4,7 +4,7 @@
 This project conducts sentiment analysis on a dataset containing 1.6 million tweets sourced from Kaggle. The primary objective is to classify tweet sentiments using Natural Language Processing (NLP) techniques and machine learning models.
 
 ## Dataset Details
-- **Source**: [Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140)dataset comprising 1.6 million tweets.
+- **Source**: [Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140) dataset comprising 1.6 million tweets.
 - **Columns**: Target, IDs, Date, Flag, User, Text.
 
 ## Tools and Techniques Utilized
@@ -46,5 +46,6 @@ This project conducts sentiment analysis on a dataset containing 1.6 million twe
 - Acknowledgment to NLTK, Matplotlib, Seaborn, and scikit-learn libraries used in this project.
   
 ## Power BI Link
-https://app.powerbi.com/links/6ofBP6MeUS?ctid=fc42da63-a990-45bc-8143-320165150d3c&pbi_source=linkShare&bookmarkGuid=1681bf86-21b7-4141-92a3-e8dfbe6ab4ab
+[Sentiment_Analysis](https://app.powerbi.com/links/6ofBP6MeUS?ctid=fc42da63-a990-45bc-8143-320165150d3c&pbi_source=linkShare&bookmarkGuid=1681bf86-21b7-4141-92a3-e8dfbe6ab4ab)
+
 
