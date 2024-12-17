@@ -46,6 +46,6 @@ This project conducts sentiment analysis on a dataset containing 1.6 million twe
 - Acknowledgment to NLTK, Matplotlib, Seaborn, and scikit-learn libraries used in this project.
   
 ## Power BI Link
-[Sentiment_Analysis](https://app.powerbi.com/links/6ofBP6MeUS?ctid=fc42da63-a990-45bc-8143-320165150d3c&pbi_source=linkShare&bookmarkGuid=1681bf86-21b7-4141-92a3-e8dfbe6ab4ab)
+[Sentiment_Analysis](https://app.powerbi.com/view?r=eyJrIjoiN2JjOWJmNjEtNzNjOC00OTk2LWIzYjMtNzgzMGQ3MDZmNjVhIiwidCI6ImZjNDJkYTYzLWE5OTAtNDViYy04MTQzLTMyMDE2NTE1MGQzYyJ9)
 
 
